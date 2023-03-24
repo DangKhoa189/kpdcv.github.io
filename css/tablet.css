@@ -1,0 +1,55 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* navbar */
+  .container-navbar img {
+    display: none;
+  }
+  /* Thông tin nghề nghiệp */
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+  }
+  .flex {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  /* mục tiêu và thông tin */
+  .target-title,
+  .info-title {
+    font-size: 2em;
+    margin: 20px;
+    padding: 10px;
+  }
+  #target p {
+    padding: 0 0 0 20px;
+    margin: 0;
+  }
+  #personal-info li {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+  }
+  #personal-info ul {
+    margin-left: 20px;
+    padding-left: 10px;
+  }
+  /* Chứng chỉ */
+  .certificate-img {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  #certificate-3 {
+    align-items: start;
+  }
+  /* Kinh nghiem - Hoc van */
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}

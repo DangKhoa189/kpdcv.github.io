@@ -1,0 +1,53 @@
+@media (max-width: 768px) {
+  /* navbar */
+  .container-navbar img {
+    display: none;
+  }
+  .container-navbar {
+    display: block;
+    height: auto;
+  }
+  .container-navbar a:link,
+  a:visited {
+    display: block;
+    text-align: start;
+    border: none;
+  }
+  /* thông tin cá nhân */
+  .information {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: auto;
+  }
+  /* chứng chỉ */
+  .certificate-img {
+    flex-direction: column;
+    align-items: center;
+    border: none;
+  }
+  .certificate-img img {
+    height: auto;
+    width: auto;
+  }
+  #certificate-1,
+  #certificate-2,
+  #certificate-3 {
+    border: none;
+    border-bottom: 2px solid #d6c08d;
+  }
+  /* Thông tin nghề nghiệp */
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 20px;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+  }
+  .flex {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+}
